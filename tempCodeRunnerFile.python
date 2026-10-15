@@ -1,0 +1,9 @@
+k = 0
+
+while True:
+    for i in range(10):
+        print(i)
+        if k == 0:
+            continue
+        if i == 5:
+            break
